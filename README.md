@@ -13,3 +13,14 @@ $ conda install notebook
 $ jupyterhub -h
 $ configureable-http-proxy -h
 ```
+
+4.
+```
+$ pip install dockerspawner
+$ docker pull jupyterhub/singleuser
+```
+
+```
+jupyterhub --generate-config
+```
+https://www.youtube.com/watch?v=gSVvxOchT8Y
